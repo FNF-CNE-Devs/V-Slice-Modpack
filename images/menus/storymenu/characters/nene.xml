@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="nene.png" width="2021" height="1984">
+	<SubTexture name="Nene Idle BLACK LINES0001" x="1" y="660" width="401" height="326" frameX="-1" frameY="-4" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0002" x="1" y="1" width="402" height="326" frameX="-0" frameY="-4" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0003" x="1" y="330" width="402" height="327" frameX="-0" frameY="-3" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0004" x="406" y="649" width="401" height="327" frameX="-1" frameY="-3" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0005" x="811" y="1" width="401" height="328" frameX="-1" frameY="-2" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0006" x="811" y="332" width="401" height="328" frameX="-1" frameY="-2" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0007" x="1" y="989" width="401" height="328" frameX="-1" frameY="-2" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0008" x="810" y="663" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0009" x="405" y="979" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0010" x="1215" y="1" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0011" x="1215" y="334" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0012" x="1214" y="667" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0013" x="1" y="1320" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0014" x="809" y="996" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0015" x="405" y="1312" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0016" x="809" y="1329" width="401" height="321" frameX="-1" frameY="-9" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0017" x="1213" y="1000" width="401" height="321" frameX="-1" frameY="-9" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0018" x="406" y="1" width="402" height="321" frameX="-0" frameY="-9" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0019" x="406" y="325" width="402" height="321" frameX="-0" frameY="-9" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0020" x="1213" y="1324" width="401" height="322" frameX="-1" frameY="-8" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0021" x="1619" y="1" width="401" height="322" frameX="-1" frameY="-8" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0022" x="1619" y="326" width="401" height="323" frameX="-1" frameY="-7" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0023" x="1619" y="652" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0024" x="1618" y="985" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0025" x="1617" y="1318" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0026" x="405" y="1645" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0027" x="1213" y="1649" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0028" x="1" y="1653" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0029" x="809" y="1653" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+	<SubTexture name="Nene Idle BLACK LINES0030" x="1617" y="1651" width="401" height="330" frameX="-1" frameY="-0" frameWidth="402" frameHeight="330"/>
+</TextureAtlas>
