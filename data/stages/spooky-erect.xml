@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-stage>
+<stage zoom="1" name="spooky-erect" folder="stages/spooky/erect/" startCamPosY="400" startCamPosX="600">
+    <sprite name="trees" x="200" y="50" sprite="bgtrees" anim="idle" antialiasing="true" scroll="0.8" scale="1.05">
+		<anim name="idle" anim="bgtrees" type="loop" loop="true" fps="5"/>
+	</sprite>
+
+    <sprite name="bgDark" sprite="bgDark" x="-360" y="-220" antialiasing="true"/>
+    <sprite name="bgLight" sprite="bgLight" x="-360" y="-220" alpha="0" antialiasing="true"/>
+    <sprite name="stairsDark" sprite="stairsDark" x="966" y="-225" antialiasing="true"/>
+    <sprite name="stairsLight" sprite="stairsLight" x="966" y="-225" alpha="0" antialiasing="true"/>
+</stage>
