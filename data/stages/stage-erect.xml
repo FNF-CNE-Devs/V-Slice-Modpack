@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.85" name="stage-erect" folder="stages/default/erect/" startCamPosY="600" startCamPosX="1000">
-	<sprite name="backDark" x="729" y="-170" sprite="backDark" />
+	<box name="backDark" x="729" y="-170" color="#222026" width="1009" height="865"/>
 
     <sprite name="crowd" x="560" y="290" sprite="crowd" anim="idle" scroll="0.8">
 		<anim name="idle" anim="Symbol 2" type="loop" loop="true" fps="12"/>
@@ -23,9 +23,9 @@
     <sprite name="bg" x="-603" y="-187" sprite="bg" />
     <sprite name="server" x="-361" y="205" sprite="server" />
 
-	<girlfriend x="501.5"/>
-	<dad x="40"/>
-	<boyfriend x="977.5"/>
+	<girlfriend x="181.5" y="197"/>
+	<dad x="-170.5" y="86" camxoffset="100" camyoffset="10"/>
+	<boyfriend x="757.5" y="100" camxoffset="-50" camyoffset="-30"/>
 
     <!-- MORE LIGHTS -->
     <sprite name="lights" x="-601" y="-147" sprite="lights" scroll="1.2" />

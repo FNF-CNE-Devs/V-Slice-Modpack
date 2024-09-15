@@ -1,4 +1,4 @@
-function create() initShaders();
+function create() Options.gameplayShaders ? initShaders() : disableScript();
 
 function setShaderProperties(shader:CustomShader, brightness:Float, hue:Float, contrast:Float, saturation:Float = 0):CustomShader
 {
@@ -11,14 +11,7 @@ function setShaderProperties(shader:CustomShader, brightness:Float, hue:Float, c
 
 function initShaders()
 {
-    colorShaderBf = setShaderProperties(new CustomShader('adjustColor'), -23, 12, 7, 0);
-    colorShaderGf = setShaderProperties(new CustomShader('adjustColor'), -30, -9, -4, 0);
-    colorShaderDad = setShaderProperties(new CustomShader('adjustColor'), -33, -32, -23, 0);
-
-    boyfriend.shader = colorShaderBf;
-
-    gf.animateAtlas?.shaderEnabled = gf.shaderEnabled = true;
-    gf.shader = colorShaderGf;
-    
-    dad.shader = colorShaderDad;
+    boyfriend.shader = setShaderProperties(new CustomShader('adjustColor'), -23, 12, 7, 0);
+    gf.shader = setShaderProperties(new CustomShader('adjustColor'), -30, -9, -4, 0);
+    dad.shader = setShaderProperties(new CustomShader('adjustColor'), -33, -32, -23, 0);
 }
