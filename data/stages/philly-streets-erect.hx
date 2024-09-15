@@ -93,25 +93,26 @@ function create()
 var mists:Array<FlxBackdrop> = [];
 function initMist()
 {
+	// Type of mist, X Position, Y Position, Scroll, Scale, Alpha, X Velocity
 	var mistData:Array<Dynamic> = [
-		['stages/philly-streets/erect/mistMid', -650, -100, 1.2, 1, 1, 0xFF5c5c5c, 0.6, 172],
-		['stages/philly-streets/erect/mistMid', -650, -100, 1.1, 1, 1, 0xFF5c5c5c, 0.6, 150],
-		['stages/philly-streets/erect/mistBack', -650, -100, 1.2, 1, 1, 0xFF5c5c5c, 0.8, -80],
-		['stages/philly-streets/erect/mistMid', -650, -100, 0.95, 0.8, 0.8, 0xFF5c5c5c, 0.5, -50],
-		['stages/philly-streets/erect/mistBack', -650, -100, 0.8, 0.7, 0.7, 0xFF5c5c5c, 1, 40],
-		['stages/philly-streets/erect/mistMid', -650, -100, 0.5, 1.1, 1.1, 0xFF5c5c5c, 1, 20]
+		['Mid', -650, -100, 1.2, 1, 0.6, 172],
+		['Mid', -650, -100, 1.1, 1, 0.6, 150],
+		['Back', -650, -100, 1.2, 1, 0.8, -80],
+		['Mid', -650, -100, 0.95, 0.8, 0.5, -50],
+		['Back', -650, -100, 0.8, 0.7, 1, 40],
+		['Mid', -650, -100, 0.5, 1.1, 1, 20]
 	];
 
 	for (mist in mistData) {
-		var mistBackdrop = new FlxBackdrop(Paths.image(mist[0]), 0x01);
+		var mistBackdrop = new FlxBackdrop(Paths.image('stages/philly-streets/erect/mist' + mist[0]), 0x01);
 		mistBackdrop.setPosition(mist[1], mist[2]);
-		mistBackdrop.scrollFactor.set(mist[3], mist[4]);
-		mistBackdrop.scale.set(mist[5], mist[5]);
-		mistBackdrop.color = mist[6];
-		mistBackdrop.alpha = mist[7];
-		mistBackdrop.velocity.x = mist[8];
+		mistBackdrop.scrollFactor.set(mist[3], mist[3]);
+		mistBackdrop.scale.set(mist[4], mist[4]);
+		mistBackdrop.color = 0xFF5c5c5c;
+		mistBackdrop.alpha = mist[5];
+		mistBackdrop.velocity.x = mist[6];
 		mistBackdrop.blend = 0;
-
+		
 		mists.push(mistBackdrop);
 	}
 

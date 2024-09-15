@@ -18,23 +18,23 @@ function create()
 var mists:Array<FlxBackdrop> = [];
 function initMist()
 {
+	// Type of mist, X Position, Y Position, Scroll, Scale, Color, Alpha, X Velocity
 	var mistData:Array<Dynamic> = [
-		['Mid', -650, -100, 1.1, 1.1, 1.3, 1.3, 0xFFc6bfde, 0.4, 1700],
-		['Back', -650, -100, 1.2, 1.2, 1, 1, 0xFF6a4da1, 1, 2100],
-		['Mid', -650, -100, 0.8, 0.8, 1.5, 1.5, 0xFFa7d9be, 0.5, 900],
-		['Back', -650, -380, 0.6, 0.6, 1.5, 1.5, 0xFF9c77c7, 1, 700],
-		['Mid', -650, -100, 0.5, 0.5, 1.5, 1.5, 0xFFE7A480, 1, 100]
+		['Mid', -650, -100, 1.1, 1.3, 0xFFc6bfde, 0.4, 1700],
+		['Back', -650, -100, 1.2, 1, 0xFF6a4da1, 1, 2100],
+		['Mid', -650, -100, 0.8, 1.5, 0xFFa7d9be, 0.5, 900],
+		['Back', -650, -380, 0.6, 1.5, 0xFF9c77c7, 1, 700],
+		['Mid', -650, -100, 0.5, 1.5, 0xFFE7A480, 1, 100]
 	];
-
 
 	for (mist in mistData) {
 		var mistBackdrop = new FlxBackdrop(Paths.image('stages/limo/erect/mist' + mist[0]), 0x01);
 		mistBackdrop.setPosition(mist[1], mist[2]);
-		mistBackdrop.scrollFactor.set(mist[3], mist[4]);
-		mistBackdrop.scale.set(mist[5], mist[6]);
-		mistBackdrop.color = mist[7];
-		mistBackdrop.alpha = mist[8];
-		mistBackdrop.velocity.x = mist[9];
+		mistBackdrop.scrollFactor.set(mist[3], mist[3]);
+		mistBackdrop.scale.set(mist[4], mist[4]);
+		mistBackdrop.color = mist[5];
+		mistBackdrop.alpha = mist[6];
+		mistBackdrop.velocity.x = mist[7];
 		mistBackdrop.blend = 0;
 		
 		mists.push(mistBackdrop);
