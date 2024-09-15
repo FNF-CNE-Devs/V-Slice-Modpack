@@ -28,9 +28,7 @@
 	<boyfriend x="977.5"/>
 
     <!-- MORE LIGHTS -->
-    <sprite name="lights" x="-601" y="-147" sprite="lights" scroll="1.2" >
-        <property name="blend" type="float" value="0" />
-    </sprite>
+    <sprite name="lights" x="-601" y="-147" sprite="lights" scroll="1.2" />
 	<sprite name="lightAbove" x="804" y="117" sprite="lightAbove" >
         <property name="blend" type="float" value="0" />
     </sprite>
