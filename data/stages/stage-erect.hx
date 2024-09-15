@@ -1,10 +1,4 @@
-function create()
-{
-    for (lights in [brightLightSmall, orangeLight, lightgreen, lightred, lightAbove])
-        lights.blend = 0;
-
-    initShaders();
-}
+function create() initShaders();
 
 function setShaderProperties(shader:CustomShader, brightness:Float, hue:Float, contrast:Float, saturation:Float = 0):CustomShader
 {
