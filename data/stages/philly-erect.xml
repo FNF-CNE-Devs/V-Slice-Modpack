@@ -8,4 +8,8 @@
 	<sprite name="streetBehind" x="-40" y="50" sprite="erect/behindTrain" zoomfactor="1" />
 	<sprite name="phillyTrain" x="2000" y="360" sprite="train" zoomfactor="1" />
 	<sprite name="street" x="-40" y="50" sprite="erect/street" zoomfactor="1" />
+
+	<girlfriend brightness="-5" hue="-26" saturation="-16" />
+	<boyfriend brightness="-5" hue="-26" saturation="-16" />
+	<dad brightness="-5" hue="-26" saturation="-16" />
 </stage>

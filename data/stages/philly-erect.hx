@@ -1,4 +1,5 @@
 // phillyTrain is automatically added by Stage.hx
+importScript("data/scripts/erect-effect");
 
 var curColor:Int = 0;
 var trainSound:FlxSound;
@@ -21,7 +22,7 @@ function create()
 	light.color = colors[curColor];
 	trainSound = FlxG.sound.load(Paths.sound("train_passes"));
 
-    initShaders();
+	initTrainShader();
 }
 
 function beatHit(curBeat:Int) {
@@ -101,17 +102,5 @@ function trainReset():Void
 	phillyTrain.velocity.x = 0;
 }
 
-function initShaders()
-{
-    lightShader = new CustomShader('building');
-    light.shader = lightShader;
-
-    colorShader = new CustomShader('adjustColor');
-    colorShader.hue = -26;
-	colorShader.saturation = -16;
-	colorShader.contrast = 0;
-	colorShader.brightness = -5;
-
-	for (character in [boyfriend, gf, dad]) character.shader = colorShader;
-	gf.animateAtlas?.shaderEnabled = gf.shaderEnabled = true;
-}
+function initTrainShader()
+    light.shader = lightShader = new CustomShader('building');

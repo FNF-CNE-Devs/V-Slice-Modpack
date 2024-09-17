@@ -23,9 +23,9 @@
     <sprite name="bg" x="-603" y="-187" sprite="bg" />
     <sprite name="server" x="-361" y="205" sprite="server" />
 
-	<girlfriend x="181.5" y="197"/>
-	<dad x="-170.5" y="86" camxoffset="100" camyoffset="10"/>
-	<boyfriend x="757.5" y="100" camxoffset="-50" camyoffset="-30"/>
+	<girlfriend x="181.5" y="197" brightness="-30" hue="-9" contrast="-4"/>
+	<dad x="-170.5" y="86" camxoffset="100" camyoffset="10" brightness="-33" hue="-32" contrast="-23"/>
+	<boyfriend x="757.5" y="100" camxoffset="-50" camyoffset="-30" brightness="-23" hue="12" contrast="7"/>
 
     <!-- MORE LIGHTS -->
     <sprite name="lights" x="-601" y="-147" sprite="lights" scroll="1.2" />

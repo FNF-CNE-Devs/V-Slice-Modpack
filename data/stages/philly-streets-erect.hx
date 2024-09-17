@@ -2,6 +2,8 @@
 import flixel.addons.display.FlxTiledSprite;
 import flixel.addons.display.FlxBackdrop;
 
+importScript("data/scripts/erect-effect");
+
 // var carSndAmbience:FunkinSound;
 
 var lightsStop:Bool = false; // state of the traffic lights
@@ -86,7 +88,6 @@ function create()
 	resetCar(true, true);
 	resetStageValues();
 
-	initShaders();
 	initMist();
 }
 
@@ -132,18 +133,6 @@ function onStageXMLParsed(event)
 	scrollingSky.scale.set(0.65, 0.65);
 	event.stage.stageSprites.set('scrollingSky', scrollingSky);
 	add(scrollingSky);
-}
-
-function initShaders()
-{
-	colorShader = new CustomShader('adjustColor');
-	colorShader.hue = -5;
-	colorShader.saturation = -40;
-	colorShader.contrast = -25;
-	colorShader.brightness = -20;
-
-	for (character in [boyfriend, gf, dad]) character.shader = colorShader;
-	gf.animateAtlas?.shaderEnabled = gf.shaderEnabled = true;
 }
 
 /*function destroy() {

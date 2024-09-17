@@ -5,12 +5,13 @@ var fastCarCanDrive:Bool = true;
 var shootingStarBeat:Int = 0;
 var shootingStarOffset:Int = 2;
 
+importScript("data/scripts/erect-effect");
+
 function create()
 {
 	resetFastCar();
 
 	initMist();
-    initShaders();
 
 	shootingStar.animation.finishCallback = () -> shootingStar.visible = false;
 }
@@ -92,18 +93,6 @@ function doShootingStar(beat:Int):Void
     
 	shootingStarBeat = beat;
 	shootingStarOffset = FlxG.random.int(4, 8);
-}
-
-function initShaders()
-{
-    colorShader = new CustomShader('adjustColor');
-    colorShader.hue = -30;
-    colorShader.saturation = -20;
-    colorShader.contrast = 0;
-    colorShader.brightness = -30;
-
-    for (character in [boyfriend, gf, dad, dancer1, dancer2, dancer3, dancer4, dancer5]) character.shader = colorShader;
-	gf.animateAtlas?.shaderEnabled = gf.shaderEnabled = true;
 }
 
 function resetFastCar() {
