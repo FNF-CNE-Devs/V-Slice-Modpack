@@ -1,7 +1,8 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.77" name="philly-streets-erect" folder="stages/philly-streets/" startCamPosX="1800" startCamPosY="700">
-	<sprite name="bg" x="-545" y="-273" sprite="erect/phillySkyline" scroll="0.2"/>
+	<use-extension script="erect-effect"/>
 
+	<sprite name="bg" x="-545" y="-273" sprite="erect/phillySkyline" scroll="0.2"/>
 	<high-memory>
 		<sprite name="city" x="625" y="94" sprite="erect/phillyForegroundCity" scroll="0.3"/>
 		<sprite name="construction" x="1800" y="364" sprite="erect/phillyConstruction" scrollx="0.7"/>

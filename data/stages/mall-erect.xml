@@ -1,7 +1,8 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.8" name="mall-erect" folder="stages/mall/" startCamPosY="450" startCamPosX="500">
-	<sprite name="bg" x="-1380" y="-620" sprite="erect/bgWalls" scale="0.8" scroll="0.2"/>
+	<use-extension script="erect-effect"/>
 
+	<sprite name="bg" x="-1380" y="-620" sprite="erect/bgWalls" scale="0.8" scroll="0.2"/>
 	<high-memory>
 		<sprite name="upperBoppers" x="-400" y="-60" sprite="erect/upperBop" scale="0.85" scroll="0.33" type="onbeat" beatInterval="1"/>
 	</high-memory>

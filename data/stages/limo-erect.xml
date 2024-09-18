@@ -1,5 +1,7 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.9" name="limo" folder="stages/limo/" startCamPosY="400">
+	<use-extension script="erect-effect"/>
+
 	<!-- BG LIMOS !-->
 	<sprite name="skyBG" x="-220" y="-80" sprite="erect/limoSunset" scale="0.9" scroll="0.1" zoomfactor="0"/>
     <sprite name="shootingStar" x="200" y="0" sprite="erect/shooting star" scroll="0.12">

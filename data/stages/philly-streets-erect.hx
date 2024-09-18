@@ -2,8 +2,6 @@
 import flixel.addons.display.FlxTiledSprite;
 import flixel.addons.display.FlxBackdrop;
 
-importScript("data/scripts/erect-effect");
-
 // var carSndAmbience:FunkinSound;
 
 var lightsStop:Bool = false; // state of the traffic lights

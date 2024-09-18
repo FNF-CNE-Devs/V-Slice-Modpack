@@ -5,8 +5,6 @@ var fastCarCanDrive:Bool = true;
 var shootingStarBeat:Int = 0;
 var shootingStarOffset:Int = 2;
 
-importScript("data/scripts/erect-effect");
-
 function create()
 {
 	resetFastCar();

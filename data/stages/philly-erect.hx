@@ -1,5 +1,4 @@
 // phillyTrain is automatically added by Stage.hx
-importScript("data/scripts/erect-effect");
 
 var curColor:Int = 0;
 var trainSound:FlxSound;

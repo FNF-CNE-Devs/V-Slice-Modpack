@@ -1,7 +1,8 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.85" name="stage-erect" folder="stages/default/erect/" startCamPosY="600" startCamPosX="1000">
-	<box name="backDark" x="729" y="-170" color="#222026" width="1009" height="865"/>
+	<use-extension script="erect-effect"/>
 
+    <box name="backDark" x="729" y="-170" color="#222026" width="1009" height="865"/>
     <sprite name="crowd" x="560" y="290" sprite="crowd" anim="idle" scroll="0.8">
 		<anim name="idle" anim="Symbol 2" type="loop" loop="true" fps="12"/>
 	</sprite>

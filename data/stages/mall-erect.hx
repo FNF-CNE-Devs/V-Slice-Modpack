@@ -1,1 +1,0 @@
-importScript("data/scripts/erect-effect");
