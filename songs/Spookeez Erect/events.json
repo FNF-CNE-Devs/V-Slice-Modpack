@@ -1,0 +1,862 @@
+{
+	"events": [
+        {
+            "time": 0.634146341499218,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 5783.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				0
+			]
+          },
+          {
+            "time": 8674.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 11566.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				0
+			]
+          },
+          {
+            "time": 14457.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 15903.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 17259.3614457831,
+            "name": "Camera Modulo Change",
+            "params": [
+				2,
+				1
+			]
+          },
+          {
+            "time": 17349,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 17379,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 23132,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 23313.2530120482,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 24578.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				0.95,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 26024.2530120482,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 28915,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 28945,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 33253.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 34698.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 40481.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 40527.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 43373,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 43403,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 46265.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 46310.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 47710.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.05,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 49156.9512195122,
+            "name": "Cam Zoom",
+            "v": { "ease": "expoOut", "duration": 32, "mode": "stage", "zoom": 1 }
+          },
+          {
+            "time": 50602.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 51957.3614457831,
+            "name": "Camera Modulo Change",
+            "params": [
+				1,
+				1.1
+			]
+          },
+          {
+            "time": 52048.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 53493.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 54939,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 54969,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 57831.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 57876.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 59276.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 60632.3614457831,
+            "name": "Camera Modulo Change",
+            "params": [
+				2,
+				1.1
+			]
+          },
+          {
+            "time": 60722.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.2,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 61445.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.3,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 62168.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.2,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 62891.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 63524.3614457831,
+            "name": "Camera Modulo Change",
+            "params": [
+				4,
+				1
+			]
+          },
+          {
+            "time": 63614.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				0
+			]
+          },
+          {
+            "time": 63659.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 66506.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 69397.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				0
+			]
+          },
+          {
+            "time": 72289.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 73734.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 75090.3614457831,
+            "name": "Camera Modulo Change",
+            "params": [
+				2,
+				1
+			]
+          },
+          {
+            "time": 75180,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 75210,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 80963,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 81144.2530120482,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 82409.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				0.95,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 83855.2530120482,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 86746,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 86776,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 91084.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 92529.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 95421.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 96867.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.05,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 97590.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 98312.6341463415,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 98358.9512195122,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 101204,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 101234,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 102650.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 104096.634146342,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 104141.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 105541.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.05,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 106987.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 108433.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 109789.361445783,
+            "name": "Camera Modulo Change",
+            "params": [
+				1,
+				1.1
+			]
+          },
+          {
+            "time": 109879.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 111324.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 112770,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 112800,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 115662.634146342,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 115707.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 117107.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 118463.361445783,
+            "name": "Camera Modulo Change",
+            "params": [
+				2,
+				1.1
+			]
+          },
+          {
+            "time": 118553.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.2,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 119276.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.3,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 119999.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.2,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 120722.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 121355.361445783,
+            "name": "Camera Modulo Change",
+            "params": [
+				1,
+				1.2
+			]
+          },
+          {
+            "time": 121445,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 121490.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 122891.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 124337.634146342,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 125783.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 127228,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 127274.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 128674.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 130120.634146342,
+            "name": "Camera Movement",
+            "params": [
+				1
+			]
+          },
+          {
+            "time": 130165.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 131566.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.1,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 132289.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				1.2,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 132921.361445783,
+            "name": "Camera Modulo Change",
+            "params": [
+				1,
+				1.1
+			]
+          },
+          {
+            "time": 133012,
+            "name": "Duet Camera",
+            "params": [
+				""
+			]
+          },
+          {
+            "time": 133057.951219512,
+            "name": "Cam Zoom",
+            "params": [
+				0.9,
+				36,
+				"expoOut"
+			]
+          },
+          {
+            "time": 134367.361445783,
+            "name": "Camera Modulo Change",
+            "params": [
+				1,
+				1
+			]
+          },
+          {
+            "time": 135813.361445783,
+            "name": "Camera Modulo Change",
+            "params": [
+				1,
+				0.7
+			]
+          },
+          {
+            "time": 136536.361445783,
+            "name": "Camera Modulo Change",
+            "params": [
+				1,
+				0.4
+			]
+          },
+          {
+            "time": 137259.361445783,
+            "name": "Camera Modulo Change",
+            "params": [
+				1,
+				0.2
+			]
+          },
+          {
+            "time": 138704.361445783,
+            "name": "Camera Modulo Change",
+            "params": [
+				4,
+				0.2
+			]
+          }
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 166,
+	"difficulties": [
+		"erect",
+		"nightmare"
+	],
+	"needsVoices": true,
+	"parsedColor": -12070423,
+	"displayName": "Spookeez Erect",
+	"icon": "spooky",
+	"name": "Spookeez Erect",
+	"color": "#47D1E9"
+}
