@@ -1,5 +1,6 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="1" name="spooky-erect" folder="stages/spooky/erect/" startCamPosY="400" startCamPosX="600">
+    <!-- <use-extension folder="data/stages" script="spooky" importStageSprites="true"/> This is prob the only one that doesnt use the original script  - Nex -->
     <sprite name="trees" x="200" y="50" sprite="bgtrees" anim="idle" antialiasing="true" scroll="0.8" scale="1.05">
 		<anim name="idle" anim="bgtrees" type="loop" loop="true" fps="5"/>
 	</sprite>

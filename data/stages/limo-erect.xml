@@ -1,5 +1,6 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.9" name="limo" folder="stages/limo/" startCamPosY="400">
+	<use-extension folder="data/stages" script="limo" importStageSprites="true"/>
 	<use-extension script="erect-effect"/>
 
 	<!-- BG LIMOS !-->
@@ -35,7 +36,7 @@
 		</sprite>
 
 		<!-- SUPER FAST CAR !-->
-		<sprite name="fastCar" x="-300" y="160" sprite="fastCarLol" zoomfactor="0.75" />
+		<sprite name="fastCar" x="-300" y="160" sprite="fastCarLol" zoomfactor="0.75" brightness="-30" hue="-30" saturation="-20"/>
 	</high-memory>
 
 
