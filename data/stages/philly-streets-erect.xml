@@ -1,5 +1,6 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.77" name="philly-streets-erect" folder="stages/philly-streets/" startCamPosX="1800" startCamPosY="700">
+	<use-extension folder="data/stages" script="philly-streets" importStageSprites="true"/>
 	<use-extension script="erect-effect"/>
 
 	<sprite name="bg" x="-545" y="-273" sprite="erect/phillySkyline" scroll="0.2"/>
@@ -50,11 +51,14 @@
 
 	<girlfriend x="1203" y="454" scroll="1" brightness="-20" hue="-5" saturation="-40" contrast="-25" />
 	<dad x="640" y="410" camxoffset="470" brightness="-20" hue="-5" saturation="-40" contrast="-25" />
-	<boyfriend x="1970" y="450" camxoffset="-530" camyoffset="55" brightness="-20" hue="-5" saturation="-40" contrast="-25" />
+	<boyfriend x="1970" y="450" camxoffset="-300" brightness="-20" hue="-5" saturation="-40" contrast="-25" />
 
-	<!--<high-memory>
-		<sprite name="paper" x="308" y="608" sprite="erect/paper" scroll="1.1">
-            <anim name="paperBlow" anim="Paper Blowing" loop="true"/>
+	<high-memory>
+		<sprite name="paper" x="308" y="608" sprite="erect/paper" scroll="1.1" type="none">
+			<property name="alpha" type="float" value="0" />
+            <anim name="paperBlow" anim="Paper Blowing" loop="false" />
         </sprite>
-	</high-memory>-->
+	</high-memory>
+
+	<ratings x="1700" y="800"/>
 </stage>

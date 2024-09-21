@@ -6,15 +6,13 @@ public var thunderSFXamount:Int = 2;
 // TODO: When the rain shader is fully implemented, add the rain shader to the trees sprite.
 
 function create()
-{
 	for(i in 1...thunderSFXamount+1)
 		FlxG.sound.load(Paths.sound('thunder_' + Std.string(i)));
-}
 
 public function lightningStrikeShit():Void
 {
 	FlxG.sound.play(Paths.soundRandom('thunder_', 1, thunderSFXamount));
-	
+
 	// TODO: Apply dark characters to this
     for (bg in [bgLight, stairsLight])
 	{

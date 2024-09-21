@@ -48,4 +48,6 @@
 	<high-memory>
 		<sprite name="cans" x="920" y="1045" sprite="spraycanPile"/>
 	</high-memory>
+
+	<ratings x="1700" y="800"/>
 </stage>
