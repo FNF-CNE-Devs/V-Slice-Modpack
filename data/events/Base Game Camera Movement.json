@@ -1,0 +1,19 @@
+{
+	"params": [
+        {
+            "name": "Camera Target",
+            "type": "StrumLine",
+            "defaultValue": "0"
+        },
+        {
+            "name": "X Offset",
+            "type": "String",
+            "defaultValue": ""
+        },
+        {
+            "name": "Y Offset",
+            "type": "String",
+            "defaultValue": ""
+        }
+	]
+}
