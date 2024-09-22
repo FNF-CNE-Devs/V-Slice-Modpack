@@ -35,7 +35,6 @@ function lightningStrikeShit():Void
 {
 	FlxG.sound.play(Paths.soundRandom('thunder_', 1, thunderSFXamount));
 
-	// TODO: Apply dark characters to this
     for (bg in [bgLight, stairsLight])
 	{
 		bg.alpha = 1;
@@ -49,9 +48,6 @@ function lightningStrikeShit():Void
 			FlxTween.tween(bg, {alpha: 0}, 1.5);
 		});
 	}
-
-	lightningStrikeBeat = curBeat;
-	lightningOffset = FlxG.random.int(8, 24);
 
 	strumLines.forEachAlive(function(strum) for (char in strum.characters) {
 		char.playAnim('scared', true, "SING"); // SING so that they dont get indefinitely looped
@@ -68,6 +64,9 @@ function lightningStrikeShit():Void
 			});
 		}
 	});
+
+	lightningStrikeBeat = curBeat;
+	lightningOffset = FlxG.random.int(8, 24);
 }
 
 function beatHit(curBeat)

@@ -6,4 +6,5 @@
 	<anim name="singLEFT"   anim="SingLEFT"  fps="24" loop="false" x="130" y="-10"/>
 	<anim name="singRIGHT"  anim="SingRIGHT" fps="24" loop="false" x="-130" y="-14"/>
 	<anim name="singDOWN"   anim="SingDOWN"  fps="24" loop="false" x="-50" y="-130"/>
+	<anim name="cheer"		anim="Cheer"	 fps="24" loop="false" x="0" y="0"/>
 </character>

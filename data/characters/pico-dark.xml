@@ -10,4 +10,6 @@
 	<anim x="-19" loop="false" y="67" fps="24" anim="pico Up note miss" name="singUPmiss"/>
 	<anim x="-60" loop="false" y="41" fps="24" anim="Pico NOTE LEFT miss" name="singRIGHTmiss"/>
 	<anim x="26" loop="false" y="2" fps="24" anim="Pico YEAH cheer" name="hey"/>
+	<anim x="33" loop="false" y="-3" fps="24" anim="burpshit" name="burpShit"/>
+	<anim x="33" loop="false" y="-3" fps="24" anim="shit" name="shit"/>
 </character>
