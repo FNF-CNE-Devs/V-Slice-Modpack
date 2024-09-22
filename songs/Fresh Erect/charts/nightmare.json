@@ -1,19 +1,6 @@
 {
-	"events": [
-		{
-			"params": [
-				1
-			],
-			"time": 0,
-			"name": "Camera Movement"
-		}
-	],
-	"scrollSpeed": 2.4,
-	"codenameChart": true,
 	"strumLines": [
 		{
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 1,
@@ -1126,20 +1113,21 @@
 					"type": 0
 				}
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"visible": true,
+			"type": 0,
 			"characters": [
 				"dad"
 			],
-			"type": 0,
-			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "-dad",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": "-dad"
 		},
 		{
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -2852,22 +2840,25 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"type": 1,
 			"characters": [
 				"bf"
 			],
-			"visible": true,
-			"type": 1
+			"visible": true
 		},
 		{
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"type": 2,
 			"characters": [
 				"gf"
 			],
-			"visible": false,
-			"type": 2
+			"visible": false
 		}
 	],
+	"codenameChart": true,
 	"stage": "stageErect",
+	"scrollSpeed": 2.4,
 	"noteTypes": []
 }

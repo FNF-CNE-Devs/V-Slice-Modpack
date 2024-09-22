@@ -40,7 +40,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -54,9 +54,9 @@
           },
           {
             "time": 17349,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -64,7 +64,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -80,7 +80,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -89,7 +89,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.95,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -98,15 +98,15 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
           {
             "time": 28915,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -114,7 +114,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -123,7 +123,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -132,7 +132,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -148,15 +148,15 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
           {
             "time": 43373,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -164,7 +164,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -180,7 +180,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -189,7 +189,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.05,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -203,7 +203,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -220,7 +220,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -229,15 +229,15 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
           {
             "time": 54939,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -245,7 +245,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -261,7 +261,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -270,7 +270,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -287,7 +287,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.2,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -296,7 +296,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.3,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -305,7 +305,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.2,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -314,7 +314,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -338,7 +338,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -368,7 +368,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -382,9 +382,9 @@
           },
           {
             "time": 75180,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -392,7 +392,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -408,7 +408,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -417,7 +417,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.95,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -426,15 +426,15 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
           {
             "time": 86746,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -442,7 +442,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -451,7 +451,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -460,7 +460,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -469,7 +469,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -478,7 +478,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.05,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -487,7 +487,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -503,15 +503,15 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
           {
             "time": 101204,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -519,7 +519,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -528,7 +528,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -544,7 +544,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -553,7 +553,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.05,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -562,7 +562,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -571,7 +571,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -588,7 +588,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -597,15 +597,15 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
           {
             "time": 112770,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -613,7 +613,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -629,7 +629,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -638,7 +638,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -655,7 +655,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.2,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -664,7 +664,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.3,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -673,7 +673,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.2,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -682,7 +682,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -696,9 +696,9 @@
           },
           {
             "time": 121445,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -706,7 +706,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -715,7 +715,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -731,15 +731,15 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
           {
             "time": 127228,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -747,7 +747,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -756,7 +756,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -772,7 +772,7 @@
             "name": "Cam Zoom",
             "params": [
 				1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -781,7 +781,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.1,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -790,7 +790,7 @@
             "name": "Cam Zoom",
             "params": [
 				1.2,
-				36,
+				32,
 				"expoOut"
 			]
           },
@@ -804,9 +804,9 @@
           },
           {
             "time": 133012,
-            "name": "Duet Camera",
+            "name": "Camera Movement",
             "params": [
-				""
+				"2"
 			]
           },
           {
@@ -814,7 +814,7 @@
             "name": "Cam Zoom",
             "params": [
 				0.9,
-				36,
+				32,
 				"expoOut"
 			]
           },
