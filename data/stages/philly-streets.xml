@@ -1,6 +1,7 @@
 <!DOCTYPE codename-engine-stage>
 <stage zoom="0.77" name="philly-streets" folder="stages/philly-streets/" startCamPosX="1800" startCamPosY="700">
 	<use-extension script="rain-effect"/>
+
 	<sprite name="bg" x="-545" y="-273" sprite="phillySkyline" scroll="0.2"/>
 
 	<high-memory>
