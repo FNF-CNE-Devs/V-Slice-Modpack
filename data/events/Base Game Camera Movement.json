@@ -3,17 +3,27 @@
         {
             "name": "Camera Target",
             "type": "StrumLine",
-            "defaultValue": "0"
+            "defaultValue": 0
         },
         {
             "name": "X Offset",
-            "type": "String",
-            "defaultValue": ""
+            "type": "Int(-10000,10000,0.01,3)",
+            "defaultValue": 0
         },
         {
             "name": "Y Offset",
+            "type": "Int(-10000,10000,0.01,3)",
+            "defaultValue": 0
+        },
+        {
+            "name": "Duration\n\nThe duration for how long it takes IN STEPS",
+            "type": "Int(1,3200,0.01,3)",
+            "defaultValue": 4
+        },
+        {
+            "name": "Ease Type\n\nCLASSIC: Normal Ease\nINSTANT: Uhh, what to you think this does LOL\nAny other ease: the EASE",
             "type": "String",
-            "defaultValue": ""
+            "defaultValue": "CLASSIC"
         }
 	]
 }
