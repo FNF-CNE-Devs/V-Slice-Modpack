@@ -16,7 +16,7 @@
             "defaultValue": 0
         },
         {
-            "name": "Duration\n\nThe duration for how long it takes IN STEPS",
+            "name": "Duration\n\nThe duration for how long it takes IN STEPS\n(If Ease Type is CLASSIC or INSTANT, this does nothing)",
             "type": "Int(1,3200,0.01,3)",
             "defaultValue": 4
         },
