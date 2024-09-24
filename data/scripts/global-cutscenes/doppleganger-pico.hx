@@ -30,6 +30,14 @@ function create()
     {
         char.loadSprite(Paths.image("game/cutscenes/pico/pico_doppleganger"));
         char.antialiasing = true;
+
+		// all offsets for each animation are fucked
+		
+		char.animateAtlas.anim.addBySymbol('shoot', 'compressed/picoShoot', 24, false);
+
+		// i think these 2 are flipped?
+		char.animateAtlas.anim.addBySymbol('explode', 'compressed/picoExplode', 24, false);
+		char.animateAtlas.anim.addBySymbol('cigarette', 'compressed/picoCigarette', 24, false);
     }
 
     cutsceneMusic = FlxG.sound.load(Paths.music("pico/" + (!explode ? "cutscene" : "cutscene2")), 1, true);
