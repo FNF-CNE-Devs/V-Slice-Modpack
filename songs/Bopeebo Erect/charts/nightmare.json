@@ -1,7 +1,6 @@
 {
-	"events": [],
 	"scrollSpeed": 2.2,
-	"codenameChart": true,
+	"stage": "stageErect",
 	"strumLines": [
 		{
 			"strumScale": 1,
@@ -759,7 +758,6 @@
 			"strumLinePos": 0.25
 		},
 		{
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 1,
@@ -3378,22 +3376,30 @@
 					"type": 0
 				}
 			],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "-bf",
+			"strumLinePos": 0.75,
 			"type": 1,
 			"characters": [
 				"bf"
-			],
-			"visible": true
+			]
 		},
 		{
 			"position": "girlfriend",
 			"notes": [],
-			"type": 2,
 			"characters": [
 				"gf"
 			],
-			"visible": false
+			"visible": false,
+			"type": 2
 		}
 	],
-	"stage": "stageErect",
+	"codenameChart": true,
 	"noteTypes": []
 }

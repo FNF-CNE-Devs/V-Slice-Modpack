@@ -42,7 +42,6 @@ function onEvent(_) {
             } else {
                 offsetCamY = 0;
             }
-
             switch(easeTweenType.toUpperCase()){
                 case "CLASSIC":
                     LockOn = false;
@@ -51,16 +50,15 @@ function onEvent(_) {
                     LockOn = true;
                     FlxG.camera.follow(camFollow, FlxCameraFollowStyle.LOCKON, 1);
             }
-            if(camFollowTween != null) camFollowTween.cancel();
         case "Camera Movement":
             offsetCamX = 0;
             offsetCamY = 0;
+            if(camFollowTween != null) camFollowTween.cancel();
             BGTween = false;
             if(LockOn){
                 LockOn = false;
                 FlxG.camera.follow(camFollow, FlxCameraFollowStyle.LOCKON, 0.04);
             }
-            if(camFollowTween != null) camFollowTween.cancel();
     }
 }
 
@@ -68,10 +66,9 @@ function update(){
     if(PlayState.chartingMode){
         focusCameraVisual.setPosition(camFollow.x, camFollow.y);
         if(FlxG.keys.justPressed.SPACE){
-            if(allowFocusVisual){
-                allowFocusVisual = false;
-            }else if(!allowFocusVisual){
-                allowFocusVisual = true;
+            switch(allowFocusVisual){
+                case true: allowFocusVisual = false;
+                case false: allowFocusVisual = true;
             }
         }
         switch(allowFocusVisual){
@@ -102,10 +99,12 @@ function update(){
 }
 
 function camFollowTweenFunction(pos){
+    if(camFollowTween != null) camFollowTween.cancel();
     camFollowTween = FlxTween.tween(camFollow, {x: pos.x + offsetCamX, y: pos.y + offsetCamY}, (Conductor.stepCrochet / 1000) * durationForTween, {ease: Reflect.field(FlxEase, easeTweenType)});
 }
 
 function camFollowOffsetsFunction(pos){
+    if(camFollowTween != null) camFollowTween.cancel();
     camFollow.setPosition(pos.x + offsetCamX, pos.y + offsetCamY);
 }
 

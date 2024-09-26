@@ -1,19 +1,19 @@
 function create() zoomTween = FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom}, 0.1); // just used so zoomTween.cancel() can work
 function onEvent(_) {
     if (_.event.name == 'ZoomCamera') {
-        if (_.event.params[1] == null && _.event.params[2] == null){ defaultCamZoom = _.event.params[0];
+        var zoomAmount = _.event.params[0];
+        var tweenTime = _.event.params[1];
+        var tweenType = _.event.params[2];
+        if (tweenTime == null && tweenType == null){ defaultCamZoom = zoomAmount;
         } else {
-            var tweenType = _.event.params[2];
-
             if(zoomTween != null) zoomTween.cancel();
-
             switch(tweenType){
                 case "INSTANT":
-                    zoomTween = FlxTween.tween(FlxG.camera, {zoom: _.event.params[0]}, 0.00000000001, {onComplete: function(value) {
+                    zoomTween = FlxTween.tween(FlxG.camera, {zoom: zoomAmount}, 0.00000000001, {onComplete: function(value) {
                         defaultCamZoom = FlxG.camera.zoom;
                     }});
                 default:
-                    zoomTween = FlxTween.tween(FlxG.camera, {zoom: _.event.params[0]}, (Conductor.stepCrochet / 1000) * _.event.params[1], {ease: Reflect.field(FlxEase, tweenType), onComplete: function(value) {
+                    zoomTween = FlxTween.tween(FlxG.camera, {zoom: zoomAmount}, (Conductor.stepCrochet / 1000) * tweenTime, {ease: Reflect.field(FlxEase, tweenType), onComplete: function(value) {
                         defaultCamZoom = FlxG.camera.zoom;
                     }});
             }
