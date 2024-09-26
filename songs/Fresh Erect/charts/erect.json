@@ -1,13 +1,4 @@
 {
-	"events": [
-		{
-			"params": [
-				1
-			],
-			"time": 0,
-			"name": "Camera Movement"
-		}
-	],
 	"scrollSpeed": 2.3,
 	"codenameChart": true,
 	"strumLines": [

@@ -8,10 +8,10 @@
 		"erect",
 		"nightmare"
 	],
-	"needsVoices": true,
+	"needsVoices": false,
 	"parsedColor": -12070423,
 	"displayName": "Roses Erect",
-	"icon": "dad",
+	"icon": "senpai",
 	"name": "Roses Erect",
 	"color": "#47D1E9"
 }

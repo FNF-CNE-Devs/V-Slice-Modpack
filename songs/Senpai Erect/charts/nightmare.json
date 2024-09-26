@@ -1,163 +1,9 @@
 {
-	"events": [
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 0
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 3037.9746835443
-		},
-		{
-			"params": [
-				2
-			],
-			"name": "Camera Movement",
-			"time": 6075.94936708861
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 12151.8987341772,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 18227.8481012658,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				2
-			],
-			"time": 24303.7974683544,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 30379.746835443
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 36455.6962025316
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 42531.6455696203,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 48607.5949367089,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 51645.5696202532
-		},
-		{
-			"params": [
-				2
-			],
-			"time": 54683.5443037975,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 60759.4936708861,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				2
-			],
-			"name": "Camera Movement",
-			"time": 72911.3924050633
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 78987.3417721519
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 85063.2911392405
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 88101.2658227848,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 91139.2405063291,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 94177.2151898734
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 97215.1898734177
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 103291.139240506,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				2
-			],
-			"time": 109367.088607595,
-			"name": "Camera Movement"
-		}
-	],
-	"scrollSpeed": 2.8,
+	"codenameChart": true,
 	"strumLines": [
 		{
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 3,
@@ -251,7 +97,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 284.810126582275,
+					"sLen": 284.810126582273,
 					"time": 8164.55696202532,
 					"type": 0
 				},
@@ -431,7 +277,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 569.620253164561,
+					"sLen": 569.620253164563,
 					"time": 13481.0126582278,
 					"type": 0
 				},
@@ -461,7 +307,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 284.810126582277,
+					"sLen": 284.810126582275,
 					"time": 15189.8734177215,
 					"type": 0
 				},
@@ -929,7 +775,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 237.341772151914,
+					"sLen": 237.341772151922,
 					"time": 49414.5569620253,
 					"type": 0
 				},
@@ -947,7 +793,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 854.430379746831,
+					"sLen": 854.430379746824,
 					"time": 50696.2025316456,
 					"type": 0
 				},
@@ -1654,22 +1500,19 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"senpai"
+			],
+			"type": 0,
 			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
 			"vocalsSuffix": "-senpai",
-			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"senpai"
-			]
+			"strumLinePos": 0.25
 		},
 		{
-			"visible": true,
 			"notes": [
 				{
 					"id": 3,
@@ -2201,19 +2044,19 @@
 				},
 				{
 					"id": 1,
-					"sLen": 664.556962025319,
+					"sLen": 664.556962025323,
 					"time": 27341.7974683544,
 					"type": 0
 				},
 				{
 					"id": 3,
-					"sLen": 664.556962025308,
+					"sLen": 664.556962025305,
 					"time": 28101.2911392405,
 					"type": 0
 				},
 				{
 					"id": 0,
-					"sLen": 664.556962025319,
+					"sLen": 664.556962025323,
 					"time": 28860.7594936709,
 					"type": 0
 				},
@@ -2687,7 +2530,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 284.810126582284,
+					"sLen": 284.810126582292,
 					"time": 48607.5949367089,
 					"type": 0
 				},
@@ -3149,7 +2992,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 189.873417721523,
+					"sLen": 189.87341772153,
 					"time": 64936.7088607595,
 					"type": 0
 				},
@@ -3989,7 +3832,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 94.936708860725,
+					"sLen": 94.9367088607105,
 					"time": 104620.253164557,
 					"type": 0
 				},
@@ -4127,7 +3970,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 284.810126582292,
+					"sLen": 284.810126582306,
 					"time": 108987.341772152,
 					"type": 0
 				},
@@ -4144,30 +3987,38 @@
 					"type": 0
 				}
 			],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
 			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "-bf",
+			"strumLinePos": 0.75,
 			"type": 1,
 			"characters": [
 				"bf-pixel"
 			]
 		},
 		{
+			"strumScale": 1,
+			"position": "girlfriend",
 			"notes": [],
+			"characters": [
+				"gf-pixel"
+			],
+			"type": 2,
 			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"gf-pixel"
-			]
+			"strumLinePos": 0.25
 		}
 	],
-	"codenameChart": true,
 	"stage": "school",
+	"scrollSpeed": 2.8,
 	"noteTypes": []
 }
