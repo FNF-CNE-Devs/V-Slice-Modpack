@@ -24,8 +24,6 @@ function getColorVec(color:Int):Array<Float> {
 }
 
 function create() {
-	//onBranchFrame(null, 0, 0); // addition to update the shader so 1 frame isnt weird
-
 	for(i in 1...thunderSFXamount+1)
 		FlxG.sound.load(Paths.sound('thunder_' + Std.string(i)));
 
@@ -47,7 +45,7 @@ function postCreate() {
 	rainShaderTarget = stage.getSprite('trees');
 	rainShaderTarget.shader = rainShader;
 	rainShaderTarget.animation.callback = onBranchFrame;
-	onBranchFrame(null, 0, 0);
+	onBranchFrame(null, 0, 0); // codename fix: addition to update the shader so 1 frame isnt weird
 }
 
 var time:Float = 0;
