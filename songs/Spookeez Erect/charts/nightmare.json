@@ -1,9 +1,9 @@
 {
+	"scrollSpeed": 2.7,
+	"stage": "spookyErect",
 	"codenameChart": true,
 	"strumLines": [
 		{
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -49,7 +49,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 135.542168674696,
+					"sLen": 135.542168674695,
 					"time": 7048.19277108434,
 					"type": 0
 				},
@@ -217,7 +217,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 316.265060240967,
+					"sLen": 316.26506024097,
 					"time": 15903.6144578313,
 					"type": 0
 				},
@@ -349,7 +349,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 316.265060240952,
+					"sLen": 316.265060240949,
 					"time": 24578.3132530122,
 					"type": 0
 				},
@@ -361,7 +361,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 316.265060240952,
+					"sLen": 316.265060240949,
 					"time": 25301.2048192773,
 					"type": 0
 				},
@@ -391,7 +391,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 135.542168674692,
+					"sLen": 135.542168674689,
 					"time": 27108.4337349398,
 					"type": 0
 				},
@@ -409,7 +409,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 135.542168674692,
+					"sLen": 135.542168674689,
 					"time": 28192.7710843373,
 					"type": 0
 				},
@@ -793,7 +793,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 316.265060240941,
+					"sLen": 316.265060240934,
 					"time": 57108.1686746988,
 					"type": 0
 				},
@@ -1453,7 +1453,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 271.084337349443,
+					"sLen": 271.084337349457,
 					"time": 96144.2530120484,
 					"type": 0
 				},
@@ -1824,18 +1824,19 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"spooky-dark",
-				"spooky"
-			],
-			"type": 0,
 			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
 			"vocalsSuffix": "-spooky",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"type": 0,
+			"characters": [
+				"spooky"
+			]
 		},
 		{
 			"notes": [
@@ -1943,7 +1944,7 @@
 				},
 				{
 					"id": 0,
-					"sLen": 271.084337349401,
+					"sLen": 271.084337349404,
 					"time": 14096.3855421687,
 					"type": 0
 				},
@@ -2393,7 +2394,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 316.26506024097,
+					"sLen": 316.265060240974,
 					"time": 26385.5421686747,
 					"type": 0
 				},
@@ -2405,7 +2406,7 @@
 				},
 				{
 					"id": 2,
-					"sLen": 316.26506024097,
+					"sLen": 316.265060240974,
 					"time": 27108.43373494,
 					"type": 0
 				},
@@ -6275,7 +6276,7 @@
 				},
 				{
 					"id": 3,
-					"sLen": 316.265060240941,
+					"sLen": 316.265060240912,
 					"time": 115300.879518072,
 					"type": 0
 				},
@@ -7329,29 +7330,25 @@
 			"strumLinePos": 0.75,
 			"type": 1,
 			"characters": [
-				"bf-dark",
 				"bf"
 			]
 		},
 		{
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
-			"characters": [
-				"gf-dark",
-				"gf-spooky"
-			],
-			"type": 2,
 			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "girlfriend",
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"type": 2,
+			"characters": [
+				"gf"
+			]
 		}
 	],
-	"stage": "spookyErect",
-	"scrollSpeed": 2.7,
 	"noteTypes": []
 }
