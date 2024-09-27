@@ -1,16 +1,9 @@
 {
-	"events": [
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 0
-		}
-	],
-	"scrollSpeed": 2.4,
+	"codenameChart": true,
 	"strumLines": [
 		{
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 0,
@@ -1525,22 +1518,19 @@
 					"type": 0
 				}
 			],
+			"characters": [
+				"mom-car"
+			],
+			"type": 0,
 			"visible": true,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
 			"vocalsSuffix": "-mom",
-			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"mom-car"
-			]
+			"strumLinePos": 0.25
 		},
 		{
-			"visible": true,
 			"notes": [
 				{
 					"id": 3,
@@ -3847,30 +3837,38 @@
 					"type": 0
 				}
 			],
+			"visible": true,
+			"strumPos": [
+				0,
+				50
+			],
 			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "-bf",
+			"strumLinePos": 0.75,
 			"type": 1,
 			"characters": [
 				"bf-car"
 			]
 		},
 		{
+			"strumScale": 1,
+			"position": "girlfriend",
 			"notes": [],
+			"characters": [
+				"gf-car"
+			],
+			"type": 2,
 			"visible": false,
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 2,
-			"characters": [
-				"gf-car"
-			]
+			"strumLinePos": 0.25
 		}
 	],
-	"codenameChart": true,
 	"stage": "limo",
+	"scrollSpeed": 2.4,
 	"noteTypes": []
 }
