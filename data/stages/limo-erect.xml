@@ -5,10 +5,10 @@
 
 	<!-- BG LIMOS !-->
 	<sprite name="skyBG" x="-220" y="-80" sprite="erect/limoSunset" scale="0.9" scroll="0.1" zoomfactor="0"/>
-    <sprite name="shootingStar" x="200" y="0" sprite="erect/shooting star" scroll="0.12">
-        <anim name="shootingStar" anim="shooting star" />
-        <property name="blend" type="float" value="0" />
-    </sprite>
+	<sprite name="shootingStar" x="200" y="0" sprite="erect/shooting star" scroll="0.12">
+		<anim name="shootingStar" anim="shooting star" />
+		<property name="blend" type="float" value="0" />
+	</sprite>
 	<sprite name="bgLimo" x="-200" y="480" sprite="erect/bgLimo" scroll="0.4" zoomfactor="0.55" />
 
 	<!-- ONLY FOR INSTANCES WITH LOW MEMORY MODE DISABLED -->

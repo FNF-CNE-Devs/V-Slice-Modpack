@@ -39,12 +39,12 @@
 			<property name="blend" type="float" value="0" />
 		</sprite>
 
-        <sprite name="grey1" x="88" y="317" sprite="erect/greyGradient">
-            <property name="alpha" type="float" value="0.3" />
-        </sprite>
-        <sprite name="grey2" x="88" y="317" sprite="erect/greyGradient">
-            <property name="alpha" type="float" value="0.8" />
-        </sprite>
+		<sprite name="grey1" x="88" y="317" sprite="erect/greyGradient">
+			<property name="alpha" type="float" value="0.3" />
+		</sprite>
+		<sprite name="grey2" x="88" y="317" sprite="erect/greyGradient">
+			<property name="alpha" type="float" value="0.8" />
+		</sprite>
 	</high-memory>
 
 	<sprite name="fg" x="88" y="317" sprite="erect/phillyForeground"/>
@@ -56,8 +56,8 @@
 	<high-memory>
 		<sprite name="paper" x="308" y="608" sprite="erect/paper" scroll="1.1" type="none">
 			<property name="alpha" type="float" value="0" />
-            <anim name="paperBlow" anim="Paper Blowing" loop="false" />
-        </sprite>
+			<anim name="paperBlow" anim="Paper Blowing" loop="false" />
+		</sprite>
 	</high-memory>
 
 	<ratings x="1700" y="800"/>

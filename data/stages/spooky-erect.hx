@@ -3,6 +3,9 @@ public var lightningStrikeBeat:Int = 0;
 public var lightningOffset:Int = 8;
 public var thunderSFXamount:Int = 2;
 
+var rainShader:CustomShader;
+var rainShaderTarget:FlxSprite;
+
 function onPostStageCreation(_) for (strum in PlayState.SONG.strumLines) {
 	var copy = strum?.characters.copy();
 	for (char in copy) {
@@ -12,7 +15,17 @@ function onPostStageCreation(_) for (strum in PlayState.SONG.strumLines) {
 	}
 }
 
+function getColorVec(color:Int):Array<Float> {
+	return [
+		(color >> 16 & 0xFF) / 255,
+		(color >> 8 & 0xFF) / 255,
+		(color & 0xFF) / 255
+	];
+}
+
 function create() {
+	//onBranchFrame(null, 0, 0); // addition to update the shader so 1 frame isnt weird
+
 	for(i in 1...thunderSFXamount+1)
 		FlxG.sound.load(Paths.sound('thunder_' + Std.string(i)));
 
@@ -23,9 +36,29 @@ function create() {
 	}
 }
 
-function postCreate() if (rainShader != null) {
-	camGame.removeShader(rainShader);
-	trees.shader = rainShader;
+function postCreate() {
+	rainShader = new CustomShader('rainShaderSimple');
+	rainShader.uCameraBounds = [0, 0, FlxG.width, FlxG.height];
+	rainShader.uScale = FlxG.height / 200 * 2;
+	rainShader.uIntensity = 0.4;
+	rainShader.uSpriteMode = true;
+	rainShader.uRainColor = getColorVec(0xff6680cc);
+
+	rainShaderTarget = stage.getSprite('trees');
+	rainShaderTarget.shader = rainShader;
+	rainShaderTarget.animation.callback = onBranchFrame;
+	onBranchFrame(null, 0, 0);
+}
+
+var time:Float = 0;
+function update(elapsed) {
+	time += elapsed;
+	rainShader.uTime = time;
+}
+
+function onBranchFrame(name, frameNum, frameIndex) {
+	var frame = rainShaderTarget.frame;
+	rainShader.data.uFrameBounds.value = [frame.uv.x, frame.uv.y, frame.uv.width, frame.uv.height];
 }
 
 function onPlayerMiss(event)
@@ -35,7 +68,7 @@ function lightningStrikeShit():Void
 {
 	FlxG.sound.play(Paths.soundRandom('thunder_', 1, thunderSFXamount));
 
-    for (bg in [bgLight, stairsLight])
+	for (bg in [bgLight, stairsLight])
 	{
 		bg.alpha = 1;
 

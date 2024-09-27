@@ -8,7 +8,7 @@
 	</high-memory>
 	<sprite name="bgEscalator" x="-1090" y="-540" sprite="erect/bgEscalator" scroll="0.3" scale="0.9" updateHitbox="true"/>
 	<sprite name="tree" x="370" y="-250" sprite="erect/christmasTree" scroll="0.4"/>
-    <sprite name="fog" x="-1000" y="100" sprite="erect/white" scroll="0.85"/>
+	<sprite name="fog" x="-1000" y="100" sprite="erect/white" scroll="0.85"/>
 	<sprite name="bottomBoppers" x="-297" y="120" sprite="erect/bottomBop" scroll="0.9" type="onbeat" beatInterval="1"/>
 	<sprite name="fgSnow" x="-600" y="680" sprite="fgSnow"/>
 

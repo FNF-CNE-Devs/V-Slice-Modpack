@@ -6,6 +6,17 @@ public var rainShader:ScriptableShader = null;
 public var rainShaderStartIntensity:Float = 0.1;
 public var rainShaderEndIntensity:Float = 0.2;
 
+public var rainColor = 0xFF6680cc;
+
+function getColorVec(color:Int):Array<Float> {
+	return [
+		(color >> 16 & 0xFF) / 255,
+		(color >> 8 & 0xFF) / 255,
+		(color & 0xFF) / 255
+	];
+}
+
+
 function create()
 {
 	if(!Options.gameplayShaders)
@@ -17,6 +28,7 @@ function create()
 	//rainShader = new ScriptableShader(new CustomShader('rainShader'), 'rainShader');
 	//add(rainShader);
 	rainShader = new CustomShader('rainShaderSimple');
+	rainShader.uRainColor = getColorVec(rainColor);
 
 	// rainSndAmbience = FunkinSound.load(Paths.sound("rainAmbience", "weekend1"), true, false, true);
 	// rainSndAmbience.volume = 0;
