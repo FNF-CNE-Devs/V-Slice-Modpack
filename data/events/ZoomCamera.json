@@ -14,6 +14,12 @@
             "name": "Ease Type\n\nINSTANT: Uhh, what to you think this does LOL\nAny other ease: the EASE",
             "type": "String",
             "defaultValue": "expoOut"
+        },        
+        {
+            "name": "Zoom Type\n\nstage: multiplies stage zoom by set amount\ndirect: sets stage zoom to set amount",
+            "type": "DropDown('direct', 'stage')",
+            "defaultValue": "direct"
         }
+
 	]
 }
