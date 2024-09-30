@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 128,
+	"difficulties": [
+		"erect",
+		"nightmare"
+	],
+	"needsVoices": false,
+	"parsedColor": -12070423,
+	"displayName": "Roses Erect",
+	"icon": "senpai",
+	"name": "Roses Erect",
+	"color": "#47D1E9"
+}

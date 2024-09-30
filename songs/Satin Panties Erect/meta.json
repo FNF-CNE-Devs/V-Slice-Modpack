@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 135,
+	"difficulties": [
+		"erect",
+		"nightmare"
+	],
+	"needsVoices": false,
+	"parsedColor": -12070423,
+	"displayName": "Satin Panties Erect",
+	"icon": "mom",
+	"name": "Satin Panties Erect",
+	"color": "#47D1E9"
+}

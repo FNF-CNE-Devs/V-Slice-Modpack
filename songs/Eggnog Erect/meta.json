@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": true,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 140,
+	"difficulties": [
+		"erect",
+		"nightmare"
+	],
+	"needsVoices": true,
+	"parsedColor": -12070423,
+	"displayName": "Eggnog Erect",
+	"icon": "parents-christmas",
+	"name": "Eggnog Erect",
+	"color": "#47D1E9"
+}

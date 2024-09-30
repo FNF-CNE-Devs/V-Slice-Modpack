@@ -1,0 +1,25 @@
+{
+	"params": [
+        {
+            "name": "Camera Zoom Amount",
+            "type": "String",
+            "defaultValue": "0.9"
+        },
+        {
+            "name": "Duration\n\nThe duration for how long it takes IN STEPS\n(If Ease Type is INSTANT, this does nothing)",
+            "type": "Int(1,3200,0.01,3)",
+            "defaultValue": 4
+        },
+        {
+            "name": "Ease Type\n\nINSTANT: Uhh, what to you think this does LOL\nAny other ease: the EASE",
+            "type": "String",
+            "defaultValue": "expoOut"
+        },        
+        {
+            "name": "Zoom Type\n\nstage: multiplies stage zoom by set amount\ndirect: sets stage zoom to set amount",
+            "type": "DropDown('direct', 'stage')",
+            "defaultValue": "direct"
+        }
+
+	]
+}

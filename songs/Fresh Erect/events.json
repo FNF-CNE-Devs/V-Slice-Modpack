@@ -1,0 +1,515 @@
+{
+    "events": [
+      {
+        "time": 0,
+        "name": "FocusCamera",
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 1920.6341463415,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 3840.6341463415,
+        "name": "FocusCamera",
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 5760,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 7920,
+        "name": "FocusCamera",
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 9840,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 11760,
+        "name": "FocusCamera",
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 13680,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 15360,
+        "name": "FocusCamera",        
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 15420.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.9,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 17520,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 19200,
+        "name": "FocusCamera",
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 21120,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 21180.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          1,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 23040,
+        "name": "FocusCamera",
+        "params": [
+          2,
+          -100,
+          0,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 23070,
+        "name": "ZoomCamera",
+        "params": [
+          0.8,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 26880,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          16,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 26940.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.85,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 30000.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.9,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 30720,
+        "name": "FocusCamera",
+        "params": [
+          2,
+          -100,
+          0,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 30780.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.8,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 34560,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          16,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 34620.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.9,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 35520.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.95,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 36480.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.9,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 37440.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.85,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 38400.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.8,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 38640,
+        "name": "FocusCamera",
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 40560,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 42480,
+        "name": "FocusCamera",
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 44160.6341463415,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 44220.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.85,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 44640.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.9,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 45120.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.85,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 46080,
+        "name": "FocusCamera",
+        "params": [
+          0,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 46140.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.8,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 49920,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          0,
+          "CLASSIC"
+        ]
+      },
+      {
+        "time": 50880,
+        "name": "ZoomCamera",
+        "params": [
+          1.3,
+          21,
+          "quadInOut"
+        ]
+      },
+      {
+        "time": 53520,
+        "name": "ZoomCamera",
+        "params": [
+          1.1,
+          4,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 54000,
+        "name": "FocusCamera",
+        "params": [
+          2,
+          -100,
+          0,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 54030,
+        "name": "ZoomCamera",
+        "params": [
+          0.8,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 55680,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 57840,
+        "name": "FocusCamera",
+        "params": [
+          2,
+          -100,
+          0,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 59520,
+        "name": "FocusCamera",
+        "params": [
+          1,
+          0,
+          0,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 61440,
+        "name": "ZoomCamera",
+        "params": [
+          0.9,
+          32,
+          "smoothStepInOut"
+        ]
+      },
+      {
+        "time": 65280.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.95,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 66240.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          1,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 67200.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.95,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 68160.9512195122,
+        "name": "ZoomCamera",
+        "params": [
+          0.9,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 69120,
+        "name": "ZoomCamera",
+        "params": [
+          1,
+          32,
+          "expoOut"
+        ]
+      },
+      {
+        "time": 72960,
+        "name": "ZoomCamera",
+        "params": [
+          1.1,
+          32,
+          "expoOut"
+        ]
+      }
+    ]
+}

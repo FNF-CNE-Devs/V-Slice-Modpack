@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 125,
+	"difficulties": [
+		"erect",
+		"nightmare"
+	],
+	"needsVoices": false,
+	"parsedColor": -12070423,
+	"displayName": "Fresh Erect",
+	"icon": "dad",
+	"name": "Fresh Erect",
+	"color": "#47D1E9"
+}

@@ -1,0 +1,17 @@
+{
+	"beatsPerMeasure": 4,
+	"opponentModeAllowed": false,
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"bpm": 190,
+	"difficulties": [
+		"erect",
+		"nightmare"
+	],
+	"needsVoices": false,
+	"parsedColor": -12070423,
+	"displayName": "DadBattle Erect",
+	"icon": "dad",
+	"name": "DadBattle Erect",
+	"color": "#47D1E9"
+}
