@@ -1,44 +1,33 @@
+import game.NoteCoverHandler;
+
 class NoteHoldCover extends funkin.backend.FunkinSprite
 {
-    /*
-     * Array of the color directions for the strumlines.
-    */
-    public var directions:Array<String> = ['Purple', 'Blue', 'Green', 'Red', 'Purple', 'Blue', 'Green', 'Red'];
-
     /*
      * X Position of the hold cover.
     */
     public var posX:Float = -107.5;
 
     /*
-     * Array of the Y Position for the hold cover (for upscroll and downscroll).
+     * Array of the Y Position for the hold cover.
     */
-    public var posY:Array<Float> = [
-        0, // upscroll
-        0, // downscroll
-    ];
+    public var posY:Float = 0;
 
-    /*
-     * Whether if the note hold covers are positioned for downscroll.
-    */
-    public var downscroll:Bool = false;
-
-    public function new(direction:Int, isDownscroll:Bool):Void
+    public function new(direction:Int):Void
     {
-        downscroll = isDownscroll;
+        var suffix = NoteCoverHandler.getDirectionName(direction);
+        frames = Paths.getSparrowAtlas("game/splashes/hold/holdCover" + suffix);
+        animation.addByPrefix("start", "holdCoverStart" + suffix, 24, false);
+        animation.addByPrefix("hold", "holdCover" + suffix, 24, true);
 
-        frames = Paths.getSparrowAtlas("game/splashes/hold/holdCover" + directions[direction]);
-        animation.addByPrefix("start", "holdCoverStart" + directions[direction], 24, false);
-        animation.addByPrefix("hold", "holdCover" + directions[direction], 24, true);
-
+        antialiasing = true;
         visible = false;
 
         animation.finishCallback = this.onAnimationFinished;
     }
 
-    public function updatePosition(object:FlxObject){
+    public function updatePosition(object:FlxObject) {
         x = object.x + posX;
-        y = downscroll ? object.y + posY[1] : object.y + posY[0];
+        y = object.y + posY;
         angle = object.angle;
         alpha = object.alpha;
     }
@@ -46,12 +35,12 @@ class NoteHoldCover extends funkin.backend.FunkinSprite
     public function onAnimationFinished(animName:String):Void
         if (animName == 'start') playHold();
 
-    public function start(){
+    public function start() {
         if (!visible && animation.name == "hold") playStart();
         else playHold();
     }
 
-    public function playStart(){
+    public function playStart() {
         visible = true;
         playAnim('start');
     }
