@@ -14,7 +14,8 @@
 	"beatsPerMeasure": 4,
 	"needsVoices": false,
 	"variants": [
-		"erect"
+		"erect",
+		"pico"
 	],
 	"bpm": 160
 }

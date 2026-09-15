@@ -40,10 +40,10 @@ import funkin.backend.system.MainState;
 import funkin.backend.MusicBeatState;
 
 function onScriptCreated(script:Script, type:String) {
-	Logs.traceColored([
+	/*Logs.traceColored([
 		Logs.logText('SCRIPT CREATED: ', 9),
 		Logs.logText(type + ", " + script.path)
-	]);
+	]);*/
 }
 
 var restart;

@@ -35,9 +35,9 @@ function create() {
 }
 
 function postCreate() {
-	rainShader = new CustomShader('rainShaderSimple');
+	rainShader = new CustomShader('rainShader');
 	rainShader.uCameraBounds = [0, 0, FlxG.width, FlxG.height];
-	rainShader.uScale = FlxG.height / 200 * 2;
+	rainShader.uScale = (FlxG.height / FlxG.width) / 200 * 2;
 	rainShader.uIntensity = 0.4;
 	rainShader.uSpriteMode = true;
 	rainShader.uRainColor = getColorVec(0xff6680cc);
@@ -56,7 +56,8 @@ function update(elapsed) {
 
 function onBranchFrame(name, frameNum, frameIndex) {
 	var frame = rainShaderTarget.frame;
-	rainShader.data.uFrameBounds.value = [frame.uv.x, frame.uv.y, frame.uv.width, frame.uv.height];
+	// ill reenable it later maybe
+	//rainShader.data.uFrameBounds.value = [frame.uv.x, frame.uv.y, frame.uv.width, frame.uv.height];
 }
 
 // function onPlayerMiss(event)
@@ -85,8 +86,9 @@ function lightningStrikeShit():Void
 		char.playAnim('scared', true, "SING"); // SING so that they dont get indefinitely looped
 		if (StringTools.endsWith(char.curCharacter, "-dark")) {
 			var ablot = null;
+			var eyes = null;
 			if(gf.curCharacter == 'nene'){
-				var eyes = gf.scripts.get('eyeWhites');
+				eyes = gf.scripts.get('eyeWhites');
 				ablot = gf.scripts.get('abotDark');
 				ablot.alpha = 0;
 			}
@@ -97,7 +99,7 @@ function lightningStrikeShit():Void
 				char.alpha = 1;
 				if(ablot != null){
 					ablot.alpha = 1;
-					eyeWhites.color = 0xFF6F96CE;
+					//eyeWhites.color = 0xFF6F96CE;
 				}
 			});
 
@@ -107,8 +109,10 @@ function lightningStrikeShit():Void
 				if(ablot != null){
 					ablot.alpha = 0;
 					FlxTween.tween(ablot, {alpha: 1}, 1.5);
-					eyes.color = 0xFFFFFFFF;
-					FlxTween.color(eyes, 0xFFFFFFFF, 0xFF6F96CE, 1.5);
+					if (eyes != null) {
+						eyes.color = 0xFFFFFFFF;
+						FlxTween.color(eyes, 0xFFFFFFFF, 0xFF6F96CE, 1.5);
+					}
 				}
 			});
 		}

@@ -136,7 +136,7 @@ public function getDropShadow(?attachedSprite:FlxSprite):DropShadowShader {
 
     if ((fucker.attachedSprite = attachedSprite) != null) {
         attachedSprite.shader = fucker.shader;
-        attachedSprite.animation.callback = fucker.onAttachedFrame;
+        attachedSprite.animation.onFrameChange.add(fucker.onAttachedFrame);
     }
 
     return fucker;

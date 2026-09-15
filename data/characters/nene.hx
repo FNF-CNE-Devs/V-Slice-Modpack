@@ -297,6 +297,5 @@ function destroy() {
 	pupil.destroy();
 	abot.destroy();
 	abotViz.destroy();
-	abotDark.destroy();
 	if(isSpooky) abotDark.destroy();
 }
