@@ -1,3 +1,4 @@
+#version 120
 #pragma header
 
 // TODO: shouldn't this be isolated?
@@ -104,23 +105,11 @@ float snoise(vec3 v) {
 									dot(p2,x2), dot(p3,x3) ) );
 }
 
-
-
-
-
-
-
-
-
-
 struct Light {
 	vec2 position;
 	vec3 color;
 	float radius;
 };
-
-// prevent auto field generation
-#define UNIFORM uniform
 
 uniform float uScale;
 uniform float uIntensity;
@@ -133,7 +122,7 @@ uniform sampler2D uLightMap;
 uniform int numLights;
 
 const int MAX_LIGHTS = 8;
-UNIFORM Light lights[MAX_LIGHTS];
+uniform Light lights[MAX_LIGHTS];
 
 float rand(vec2 a) {
 	return fract(sin(dot(mod(a, vec2(1000.0)).xy, vec2(12.9898, 78.233))) * 43758.5453);

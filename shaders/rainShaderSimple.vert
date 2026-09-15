@@ -12,4 +12,6 @@ void main() {
 		openfl_TextureCoord.x > 0.0 ? 1.0 : 0.0,
 		openfl_TextureCoord.y > 0.0 ? 1.0 : 0.0
 	);
+
+	gl_Position = vec4(openfl_TextureCoord.x * openfl_TextureSize.x, openfl_TextureCoord.y * openfl_TextureSize.x, 0.0, 0.0);
 }

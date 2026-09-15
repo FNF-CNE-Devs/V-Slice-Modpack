@@ -27,7 +27,7 @@ function create()
 
 	//rainShader = new ScriptableShader(new CustomShader('rainShader'), 'rainShader');
 	//add(rainShader);
-	rainShader = new CustomShader('rainShaderSimple');
+	rainShader = new CustomShader('rainShader');
 	rainShader.uRainColor = getColorVec(rainColor);
 
 	// rainSndAmbience = FunkinSound.load(Paths.sound("rainAmbience", "weekend1"), true, false, true);
@@ -36,7 +36,7 @@ function create()
 
 	camGame.addShader(rainShader);
 	// puddleMap = Assets.getBitmapData(Paths.image("phillyStreets/puddle"));
-	rainShader.uScale = FlxG.height / 200; // adjust this value so that the rain looks nice
+	rainShader.uScale = (FlxG.height / FlxG.width) / 200; // adjust this value so that the rain looks nice
 	rainShader.uIntensity = rainShaderStartIntensity;
 	rainShader.uTime = 0;
 	//FlxG.console.registerObject("rainShader", rainShader);

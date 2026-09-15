@@ -48,11 +48,11 @@ function onPlayerMiss(event)
 
 function loadCanSprite() {
 	canSprite?.destroy();
-	canSprite = new FunkinSprite(this.x + 880, this.y + 300);
+	canSprite = new FunkinSprite(this.x - 70, this.y - 70);
 	canSprite.loadSprite(Paths.image("characters/spraycanAtlas"));
-	canSprite.animateAtlas.anim.addBySymbolIndices('Can Start', 'Can with Labels', [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18], 0, false);
-	canSprite.animateAtlas.anim.addBySymbolIndices('Hit Pico', 'Can with Labels', [19,20,21,22,23,24,25], 0, false);
-	canSprite.animateAtlas.anim.addBySymbolIndices('Can Shot', 'Can with Labels', [26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42], 0, false);
+	canSprite.addAnim('Can Start', 'Can with Labels', 24, false, false, [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]);
+	canSprite.addAnim('Hit Pico',  'Can with Labels', 24, false, false, [19,20,21,22,23,24,25]);
+	canSprite.addAnim('Can Shot',  'Can with Labels', 24, false, false, [26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42]);
 	canSprite.visible = false;
 	FlxG.state.insert(game.members.indexOf(this), canSprite);
 }

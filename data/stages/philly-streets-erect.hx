@@ -77,6 +77,7 @@ function update(elapsed)
 function beatHit(cur:Int)
 {
 	// this was disabled in og, but i like it, so why not?  - Nex
+	if (Options.lowMemoryMode) return;
 	if (paper != null && FlxG.random.bool(0.6) && paperInterruptable == true)
 	{
 		paper.alpha = 1;
